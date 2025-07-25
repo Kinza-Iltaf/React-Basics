@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#Skills-heading{
+  text-decoration: underline;
+  border: 3px solid #9e9090;
+  margin: 5px;
+}
