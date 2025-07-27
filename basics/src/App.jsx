@@ -2,18 +2,21 @@
 import './App.css'
 import { Intro, Profession } from './Intro'
 import SkillsSet from './SkillsSet';
+import Message from './Message';
+import CartComb from './CartComb';
 
 
 function App() {
 
-  const name = "Kinza"; 
+
   return (
     <div>
-<Intro />
+{/* <Intro />
 <Profession /> 
-<p>Hello {name.toLowerCase()}</p>
+<Message Name="kinza" Color="white" />
 <h1 id='Skills-heading'>Skills</h1>
-<SkillsSet />
+<SkillsSet /> */}
+<CartComb />
    </div>
 
   )
