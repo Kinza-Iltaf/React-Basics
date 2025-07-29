@@ -5,6 +5,7 @@ import SkillsSet from './SkillsSet';
 import Message from './Message';
 import CartComb from './CartComb';
 import Events from './Events';
+import EventObject from './EventObject';
 
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
 <h1 id='Skills-heading'>Skills</h1>
 <SkillsSet /> */}
 {/* <CartComb /> */}
-<Events/>
+{/* <Events/> */}
+<EventObject />
+
    </div>
 
   )
